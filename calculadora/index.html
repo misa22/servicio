@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta rset="UTF-8" rel="manifest" href="./manifest.json" />
+<title>CalculadoraSS</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link type="text/css" href="estilo.css" rel="stylesheet">
+<script src="calculadora.js"></script>
+</head>
+<body  style="background-color:#4A4645;">
+<div class="container">
+  <div class="calculadora">
+
+    <div><input class="displaym" type="text" disabled id="memoriadisplay" value="M"></div>
+
+    <div><input class="display" type="text" disabled id="resultado"></div>
+
+    <div class="botonesContainer">
+      <div class="botones botonN" onclick="siete()" id="siete">7</div>
+      <div class="botones botonN" onclick="ocho()" id="ocho">8</div>
+      <div class="botones botonN" onclick="nueve()" id="nueve">9</div>
+      <div class="botones botonO" onclick="division()" id="division">/</div>
+      <div class="botones botonO" onclick="agregar()" id="agregarmemoria">M+</div>
+      <div class="botones botonN" onclick="cuatro()" id="cuatro">4</div>
+      <div class="botones botonN" onclick="cinco()"id="cinco">5</div>
+      <div class="botones botonN" onclick ="seis()"id="seis">6</div>
+      <div class="botones botonO" onclick="multiplicacion()"id="multiplicacion">*</div>
+      <div class="botones botonO" onclick="memori()" id="traermemoria">SI</div>
+      <div class="botones botonN" onclick="uno()" id="uno">1</div>
+      <div class="botones botonN" onclick="dos()" id="dos">2</div>
+      <div class="botones botonN" onclick="tres()" id="tres">3</div>
+      <div class="botones botonO" onclick="resta()" id="resta">-</div>
+      <div class="botones botonO" onclick ="borrar()" id="limpiarmemoria">MC</div>
+      <div class="botones botonC" onclick="reset()" id="reset">C</div>
+      <div class="botones botonN" onclick="cero()" id="cero">0</div>
+      <div class="botones botonN" onclick="punto()" id="punto">.</div>
+      <div class="botones botonO" onclick="suma()" id="suma">+</div>
+      <div class="botones botonN" onclick="igual()" id="igual">=</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
